@@ -1,0 +1,18 @@
+﻿.container {
+    text-align: center;
+}
+
+.homeBtn {
+    position: absolute;
+    background: #3498db;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.homeBtn:hover {
+    background: #316eab;
+    cursor: pointer;
+}

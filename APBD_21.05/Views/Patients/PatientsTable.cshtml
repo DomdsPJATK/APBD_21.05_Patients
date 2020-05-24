@@ -1,0 +1,16 @@
+﻿@model IEnumerable<APBD_21._05.Model.Patient>
+
+<h1>Lista pacjetnów klinki doktora Rzepki</h1>
+<br/>
+<p>
+<table>
+    @foreach (var patient in Model)
+    {
+        <tr>
+            <td>@patient.FirstName</td>
+            <td>@patient.LastName</td>
+            <td>@patient.Birthdate</td>
+        </tr>
+    }
+</table>
+</p>
