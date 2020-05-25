@@ -1,0 +1,16 @@
+﻿@model APBD_21._05.ViewModel.ShowDetailsModel
+
+<h5>Recepty pacjenta: </h5>
+<br/>
+<p>
+    <table>
+        @foreach (var prescription in Model.Prescriptions)
+        {
+            <tr>
+                <td>@prescription.IdDoctor</td>
+                <td>@prescription.Date</td>
+                <td>@prescription.DueDate</td>
+            </tr>
+        }
+    </table>
+</p>

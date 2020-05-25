@@ -70,6 +70,8 @@ C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\bin\Debug\netcoreapp3.1\runti
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\Index.cshtml.g.cs
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\PatientsTable.cshtml.g.cs
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\ShowDetails.cshtml.g.cs
+C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\PatientDetails.cshtml.g.cs
+C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\PatientPrescription.cshtml.g.cs
+C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\PatientsList.cshtml.g.cs

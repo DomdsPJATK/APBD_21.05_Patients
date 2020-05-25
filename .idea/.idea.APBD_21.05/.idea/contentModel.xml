@@ -37,18 +37,22 @@
           <e p="PatientsServiceDataBase.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="ViewModel" t="Include">
+          <e p="ShowDetailsModel.cs" t="Include" />
+        </e>
         <e p="Views" t="Include">
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="_ViewStart.cshtml.cs" t="Include" />
           <e p="Patients" t="Include">
             <e p="Index.cshtml" t="Include" />
-            <e p="PatientsTable.cshtml" t="Include" />
+            <e p="PatientDetails.cshtml" t="Include" />
+            <e p="PatientPrescription.cshtml" t="Include" />
+            <e p="PatientsList.cshtml" t="Include" />
             <e p="ShowDetails.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
           </e>
-          <e p="Styles" t="Include" />
         </e>
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">

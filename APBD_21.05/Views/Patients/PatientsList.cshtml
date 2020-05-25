@@ -1,0 +1,21 @@
+﻿@model IEnumerable<APBD_21._05.Model.Patient>
+<h3>Lista pacjetnów klinki doktora Rzepki</h3>
+<br/>
+<p>
+<table>
+    @foreach (var patient in Model)
+    {
+        <tr>
+            <td>@patient.FirstName</td>
+            <td>@patient.LastName</td>
+            <td>@patient.Birthdate</td>
+            <td class="buttonTd">
+                @Html.ActionLink("Pokaż detale pacjenta", "ShowDetails", "Patients", new {index = patient.IdPatient}, new {@class = "homeBtn"})
+               <br/>
+               <br/>
+                @Html.ActionLink("Usuń pacjenta", "removePatient", "Patients", new {index = patient.IdPatient}, new {@class = "homeBtn"})
+            </td>
+        </tr>
+    }
+</table>
+</p>

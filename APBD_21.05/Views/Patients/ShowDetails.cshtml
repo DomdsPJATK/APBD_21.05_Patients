@@ -1,14 +1,8 @@
-﻿@model string
+﻿@model APBD_21._05.ViewModel.ShowDetailsModel
 
-<!DOCTYPE html>
+<h4>Szczegóły pecjenta</h4>
 
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-    @Html.DisplayFor(model => model)
-</div>
-</body>
-</html>
+<p><br/>
+    @Html.Partial("PatientDetails", Model)
+    @Html.Partial("PatientPrescription", Model)
+</p>

@@ -11,8 +11,4 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0-preview.4.20220.10" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Views\Styles" />
-    </ItemGroup>
-
 </Project>
