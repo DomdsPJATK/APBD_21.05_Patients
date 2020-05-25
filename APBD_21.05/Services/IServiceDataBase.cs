@@ -9,5 +9,6 @@ namespace APBD_21._05.Services
         public Patient getDetails(int index);
         List<Prescription> getPatientsPrescription(int index);
         void removePatient(int index);
+        void RegisterPatient(Patient patient);
     }
 }

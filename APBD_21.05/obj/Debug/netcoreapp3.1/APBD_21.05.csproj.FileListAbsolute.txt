@@ -75,3 +75,4 @@ C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\PatientDetails.cshtml.g.cs
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\PatientPrescription.cshtml.g.cs
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\PatientsList.cshtml.g.cs
+C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\RegisterPatient.cshtml.g.cs

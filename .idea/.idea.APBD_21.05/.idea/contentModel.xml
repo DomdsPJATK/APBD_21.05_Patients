@@ -12,6 +12,9 @@
         <e p="Controllers" t="Include">
           <e p="PatientsController.cs" t="Include" />
         </e>
+        <e p="DAL" t="Include">
+          <e p="CustonDateTimeConverter.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="ClinicDataBaseContext.cs" t="Include" />
           <e p="Doctor.cs" t="Include" />
@@ -48,6 +51,7 @@
             <e p="PatientDetails.cshtml" t="Include" />
             <e p="PatientPrescription.cshtml" t="Include" />
             <e p="PatientsList.cshtml" t="Include" />
+            <e p="RegisterPatient.cshtml" t="Include" />
             <e p="ShowDetails.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">

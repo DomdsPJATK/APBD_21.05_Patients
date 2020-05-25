@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using APBD_19._03_CW3.DAL;
+using Newtonsoft.Json;
 
 namespace APBD_21._05.Model
 {
@@ -11,10 +14,10 @@ namespace APBD_21._05.Model
             Prescription = new HashSet<Prescription>();
         }
 
-        [DisplayName("Id pacjenta")] public int IdPatient { get; set; }
-        [DisplayName("Imię pacjenta")] public string FirstName { get; set; }
-        [DisplayName("Nazwisko pacjenta")] public string LastName { get; set; }
-        public DateTime Birthdate { get; set; }
+        [DisplayName("Id")] public int IdPatient { get; set; }
+        [Required] [DisplayName("Imię")] public string FirstName { get; set; }
+        [Required] [DisplayName("Nazwisko")] public string LastName { get; set; }
+        [Required] [DisplayName("Data urodzenia")] public DateTime Birthdate { get; set; }
 
         public virtual ICollection<Prescription> Prescription { get; set; }
     }

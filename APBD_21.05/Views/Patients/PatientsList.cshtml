@@ -5,14 +5,22 @@
 <table>
     @foreach (var patient in Model)
     {
+        <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.FirstName)</th>
+            <th>@Html.DisplayNameFor(m => m.LastName)</th>
+            <th>@Html.DisplayNameFor(m => m.Birthdate)</th>
+            <th>Akcje</th>
+        </tr>
+        </thead>
         <tr>
             <td>@patient.FirstName</td>
             <td>@patient.LastName</td>
             <td>@patient.Birthdate</td>
             <td class="buttonTd">
                 @Html.ActionLink("Pokaż detale pacjenta", "ShowDetails", "Patients", new {index = patient.IdPatient}, new {@class = "homeBtn"})
-               <br/>
-               <br/>
+                <br/>
+                <br/>
                 @Html.ActionLink("Usuń pacjenta", "removePatient", "Patients", new {index = patient.IdPatient}, new {@class = "homeBtn"})
             </td>
         </tr>

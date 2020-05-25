@@ -44,6 +44,17 @@ namespace APBD_21._05.Services
             _context.Patient.Remove(toDelete);
             _context.SaveChanges();
         }
+
+        public void RegisterPatient(Patient patient)
+        {
+            _context.Add(new Patient()
+            {
+                FirstName = patient.FirstName,
+                LastName = patient.LastName,
+                Birthdate = patient.Birthdate
+            });
+            _context.SaveChanges();
+        }
     }
 
 }
