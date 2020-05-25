@@ -23,6 +23,10 @@ namespace APBD_21._05.Services
             return _context.Patient.ToList();
         }
 
+        public string getDetails(int index)
+        {
+            return index.ToString();
+        }
     }
 
 }

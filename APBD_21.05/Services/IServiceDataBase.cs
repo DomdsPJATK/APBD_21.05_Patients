@@ -8,5 +8,6 @@ namespace APBD_21._05.Services
     public interface IServiceDataBase
     {
         public List<Patient> getPatients();
+        public string getDetails(int index);
     }
 }

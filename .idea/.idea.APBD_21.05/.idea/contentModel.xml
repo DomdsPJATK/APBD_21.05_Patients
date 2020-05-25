@@ -41,9 +41,9 @@
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="_ViewStart.cshtml.cs" t="Include" />
           <e p="Patients" t="Include">
-            <e p="ActionName.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="PatientsTable.cshtml" t="Include" />
+            <e p="ShowDetails.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />

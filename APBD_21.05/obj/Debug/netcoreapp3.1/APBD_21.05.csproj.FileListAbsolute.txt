@@ -72,4 +72,4 @@ C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\PatientsTable.cshtml.g.cs
 C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\ActionName.cshtml.g.cs
+C:\Users\domin\RiderProjects\APBD_21.05\APBD_21.05\obj\Debug\netcoreapp3.1\Razor\Views\Patients\ShowDetails.cshtml.g.cs

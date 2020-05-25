@@ -12,7 +12,23 @@
     transform: translateX(-50%);
 }
 
+.homeAdd {
+    position: absolute;
+    background: #3498db;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+
 .homeBtn:hover {
+    background: #316eab;
+    cursor: pointer;
+}
+
+.homeAdd:hover {
     background: #316eab;
     cursor: pointer;
 }

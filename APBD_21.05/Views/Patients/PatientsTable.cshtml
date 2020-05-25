@@ -10,6 +10,9 @@
             <td>@patient.FirstName</td>
             <td>@patient.LastName</td>
             <td>@patient.Birthdate</td>
+            <td>
+                @Html.ActionLink("Pokaż detale pacjenta", "ShowDetails", "Patients", new {index = 5}, new {@class = "homeBtn"})
+            </td>
         </tr>
     }
 </table>
