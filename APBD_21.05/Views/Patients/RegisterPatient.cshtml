@@ -1,0 +1,25 @@
+﻿@model APBD_21._05.Model.Patient
+
+<h1>Rejestracja nowego pacjenta</h1>
+
+<form class="col s12" method="post" action="/Patients/RegisterPatient">
+    <div class="row">
+        <div class="input-field col s4">
+            <label>First Name</label>
+            @Html.EditorFor(p => p.FirstName)
+            <span>@Html.ValidationMessageFor(p => p.FirstName)</span>
+        </div>
+        <div class="input-field col s4">
+            <label>Last Name</label>
+            @Html.EditorFor(p => p.LastName)
+            <span>@Html.ValidationMessageFor(p => p.LastName)</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s8">
+            @Html.EditorFor(p => p.Birthdate)
+            <span>@Html.ValidationMessageFor(p => p.Birthdate)</span>
+        </div>
+    </div>
+    <input type="submit" class="btn" value="Dodaj pacjenta">
+</form>
