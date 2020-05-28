@@ -1,25 +1,26 @@
 ﻿@model APBD_21._05.Model.Patient
 
-<h1>Rejestracja nowego pacjenta</h1>
+<h3 class="center-align">Rejestracja nowego pacjenta</h3>
 
-<form class="col s12" method="post" action="/Patients/RegisterPatient">
-    <div class="row">
-        <div class="input-field col s4">
-            <label>First Name</label>
-            @Html.EditorFor(p => p.FirstName)
-            <span>@Html.ValidationMessageFor(p => p.FirstName)</span>
+    <form class="col s3" method="post" action="/Patients/RegisterPatient">
+        <div class="row">
+            <div class="form-group col s4 m6">
+                <label>First Name</label>
+                @Html.EditorFor(p => p.FirstName)
+                <span>@Html.ValidationMessageFor(p => p.FirstName)</span>
+            </div>
+            <div class="form-group col s4 m6">
+                <label>Last Name</label>
+                @Html.EditorFor(p => p.LastName)
+                <span>@Html.ValidationMessageFor(p => p.LastName)</span>
+            </div>
         </div>
-        <div class="input-field col s4">
-            <label>Last Name</label>
-            @Html.EditorFor(p => p.LastName)
-            <span>@Html.ValidationMessageFor(p => p.LastName)</span>
+        <div class="row">
+            <div class="form-group col s8 m12">
+                <label>Date of birth</label>
+                @Html.EditorFor(p => p.Birthdate)
+                <span>@Html.ValidationMessageFor(p => p.Birthdate)</span>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="input-field col s8">
-            @Html.EditorFor(p => p.Birthdate)
-            <span>@Html.ValidationMessageFor(p => p.Birthdate)</span>
-        </div>
-    </div>
-    <input type="submit" class="btn" value="Dodaj pacjenta">
-</form>
+        <input type="submit" class="btn" value="Dodaj pacjenta">
+    </form>
